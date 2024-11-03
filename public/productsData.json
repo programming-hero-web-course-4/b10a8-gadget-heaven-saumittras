@@ -1,0 +1,412 @@
+[
+  {
+    "product_id": "1",
+    "product_title": "Wireless Bluetooth Headphones",
+    "product_image": "https://smania.store/en/wp-content/uploads/slide-1-528-416x416.jpg",
+    "category": "Accessories",
+    "price": 59.99,
+    "description": "High-quality wireless Bluetooth headphones with noise cancellation and 20 hours of battery life.",
+    "specification": [
+      "Bluetooth 5.0",
+      "Noise Cancellation",
+      "20 hours battery life",
+      "Over-ear design"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "brand": "SoundWave",
+    "color": "Black",
+    "warranty": "1 year"
+  },
+  {
+    "product_id": "2",
+    "product_title": "Apple MacBook Pro 14-inch",
+    "product_image": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro-14/macbook-pro-14-10-500x500.jpg",
+    "category": "Laptops",
+    "price": 1999.99,
+    "description": "Apple MacBook Pro 14-inch with M1 Pro chip for outstanding performance and battery life.",
+    "specification": [
+      "M1 Pro chip",
+      "14-inch Retina display",
+      "512GB SSD",
+      "16GB RAM",
+      "macOS Monterey"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "brand": "Apple",
+    "color": "Space Gray",
+    "warranty": "1 year"
+  },
+  {
+    "product_id": "3",
+    "product_title": "Samsung Galaxy S21 Ultra",
+    "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Galaxy-S23-Ultra-Green-3380.jpg",
+    "category": "Phones",
+    "price": 1199.99,
+    "description": "Samsung Galaxy S21 Ultra with 108MP camera, 5G, and 5000mAh battery.",
+    "specification": [
+      "108MP rear camera",
+      "12GB RAM",
+      "128GB storage",
+      "5000mAh battery",
+      "5G enabled"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "brand": "Samsung",
+    "color": "Phantom Black",
+    "warranty": "1 year"
+  },
+  {
+    "product_id": "4",
+    "product_title": "Apple iPhone 13 Pro",
+    "product_image": "https://www.peacocks.com.bd/storage/2995/iPhone-13-pro-256GB-4.jpg",
+    "category": "Phones",
+    "price": 999.99,
+    "description": "iPhone 13 Pro with A15 Bionic chip, ProMotion display, and 5G.",
+    "specification": [
+      "A15 Bionic chip",
+      "6.1-inch Super Retina XDR display",
+      "128GB storage",
+      "5G support",
+      "Triple 12MP camera"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "Apple",
+    "color": "Sierra Blue",
+    "warranty": "1 year"
+  },
+  {
+    "product_id": "5",
+    "product_title": "Fitbit Versa 3 Smartwatch",
+    "product_image": "https://m.media-amazon.com/images/I/51rqOA7uVvS._AC_SX569_.jpg",
+    "category": "Smart Watches",
+    "price": 229.99,
+    "description": "Fitbit Versa 3 with heart rate monitor, GPS, and built-in voice assistant.",
+    "specification": [
+      "Heart rate monitor",
+      "Built-in GPS",
+      "Alexa and Google Assistant support",
+      "Sleep tracking"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "brand": "Fitbit",
+    "color": "Black",
+    "warranty": "1 year"
+  },
+  {
+    "product_id": "6",
+    "product_title": "Dell Inspiron 15",
+    "product_image": "https://ronstech.com.bd/wp-content/uploads/2021/10/3505-01-500x500-1-1.jpg",
+    "category": "Laptops",
+    "price": 649.99,
+    "description": "Dell Inspiron 15 with Intel i5 processor, 8GB RAM, and 256GB SSD.",
+    "specification": [
+      "Intel Core i5",
+      "15.6-inch FHD display",
+      "8GB RAM",
+      "256GB SSD",
+      "Windows 10"
+    ],
+    "availability": true,
+    "rating": 4.3,
+    "brand": "Dell",
+    "color": "Silver",
+    "warranty": "1 year"
+  },
+  {
+    "product_id": "7",
+    "product_title": "Anker Portable Charger",
+    "product_image": "https://shop.deximpo.com.bd/wp-content/uploads/2023/05/Untitled-1.jpg",
+    "category": "Accessories",
+    "price": 29.99,
+    "description": "High-capacity portable charger with 10000mAh and fast charging.",
+    "specification": [
+      "10000mAh capacity",
+      "Fast charging",
+      "Compact design",
+      "Universal compatibility"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "Anker",
+    "color": "Black",
+    "warranty": "18 months"
+  },
+  {
+    "product_id": "08",
+    "product_title": "Apple Watch Series 7",
+    "product_image": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7-availability_hero_10052021_big.jpg.slideshow-xlarge_2x.jpg",
+    "category": "Smart Watches",
+    "price": 399.99,
+    "description": "Apple Watch Series 7 with larger display and advanced health tracking.",
+    "specification": [
+      "ECG app",
+      "Blood Oxygen sensor",
+      "Water resistant up to 50m",
+      "Always-on Retina display"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "brand": "Apple",
+    "color": "Starlight",
+    "warranty": "1 year"
+  },
+  {
+    "product_id": "9",
+    "product_title": "MacBook Air 13-inch",
+    "product_image": "https://m.media-amazon.com/images/I/71yxusfh3FL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Laptops",
+    "price": 999.99,
+    "description": "Apple MacBook Air with M1 chip, lightweight design, and all-day battery life.",
+    "specification": [
+      "M1 chip",
+      "13.3-inch Retina display",
+      "256GB SSD",
+      "8GB RAM",
+      "macOS Big Sur"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "brand": "Apple",
+    "color": "Gold",
+    "warranty": "1 year"
+  },
+  {
+    "product_id": "10",
+    "product_title": "iPhone SE",
+    "product_image": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_new-iphone-se-white_04152020_big.jpg.large.jpg",
+    "category": "Phones",
+    "price": 429.99,
+    "description": "Compact iPhone SE with A13 Bionic chip and single 12MP camera.",
+    "specification": [
+      "A13 Bionic chip",
+      "4.7-inch Retina display",
+      "64GB storage",
+      "Single 12MP camera",
+      "Touch ID"
+    ],
+    "availability": true,
+    "rating": 4.4,
+    "brand": "Apple",
+    "color": "Red",
+    "warranty": "1 year"
+  },
+  {
+    "product_id": "11",
+    "product_title": "Samsung Galaxy Watch 4",
+    "product_image": "https://fdn.gsmarena.com/imgroot/reviews/21/samsung-galaxy-watch4/lifestyle/-1200/gsmarena_001.jpg",
+    "category": "Smart Watches",
+    "price": 249.99,
+    "description": "Samsung Galaxy Watch 4 with advanced body composition analysis and health tracking.",
+    "specification": [
+      "Body composition analysis",
+      "Heart rate monitor",
+      "GPS",
+      "Sleep tracking"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "brand": "Samsung",
+    "color": "Silver",
+    "warranty": "1 year"
+  },
+  {
+    "product_id": "12",
+    "product_title": "Logitech Wireless Mouse",
+    "product_image": "https://www.ryans.com/storage/products/main/logitech-m185-wireless-swift-gray-11543383540.webp",
+    "category": "Accessories",
+    "price": 19.99,
+    "description": "Ergonomic wireless mouse with long battery life and precise tracking.",
+    "specification": [
+      "2.4GHz wireless",
+      "Long battery life",
+      "Compact design",
+      "Precision tracking"
+    ],
+    "availability": true,
+    "rating": 4.4,
+    "brand": "Logitech",
+    "color": "Black",
+    "warranty": "1 year"
+  },
+  {
+    "product_id": "13",
+    "product_title": "Sony WH-1000XM4 Wireless Headphones",
+    "product_image": "https://m.media-amazon.com/images/I/510cs9VwjUL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Accessories",
+    "price": 349.99,
+    "description": "Sony's industry-leading noise-canceling headphones with Alexa voice control.",
+    "specification": [
+      "Noise-canceling",
+      "30-hour battery life",
+      "Alexa built-in",
+      "Over-ear design"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "Sony",
+    "color": "Black",
+    "warranty": "1 year"
+  },
+  {
+    "product_id": "14",
+    "product_title": "Apple Magic Keyboard",
+    "product_image": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ios-17-ipad-pro-magic-keyboard-m4-hero.png",
+    "category": "Accessories",
+    "price": 99.99,
+    "description": "Apple's sleek wireless keyboard with scissor mechanism for smooth typing.",
+    "specification": [
+      "Bluetooth",
+      "Compact design",
+      "Rechargeable",
+      "Scissor mechanism"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "brand": "Apple",
+    "color": "White",
+    "warranty": "1 year"
+  },
+  {
+    "product_id": "15",
+    "product_title": "Apple iPad Pro",
+    "product_image": "https://www.apple.com/newsroom/images/product/ipad/standard/apple_ipad-pro-spring21_hero_04202021_big.jpg.large.jpg",
+    "category": "Tablets",
+    "price": 799.99,
+    "description": "iPad Pro with M1 chip, 11-inch Liquid Retina display, and 128GB storage.",
+    "specification": [
+      "M1 chip",
+      "11-inch display",
+      "128GB storage",
+      "USB-C port",
+      "Face ID"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "Apple",
+    "color": "Space Gray",
+    "warranty": "1 year"
+  },
+  {
+    "product_id": "16",
+    "product_title": "Huawei MateBook X Pro",
+    "product_image": "https://mcsolution.com.bd/wp-content/uploads/2021/12/huawei-matebook-x-price-in-bangladesh-600x600.webp",
+    "category": "Laptops",
+    "price": 1199.99,
+    "description": "Premium ultrabook with a FullView display, Intel Core i7, and 16GB RAM.",
+    "specification": [
+      "Intel Core i7",
+      "13.9-inch 3K display",
+      "16GB RAM",
+      "1TB SSD",
+      "Windows 10"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "brand": "Huawei",
+    "color": "Emerald Green",
+    "warranty": "1 year"
+  },
+  {
+    "product_id": "17",
+    "product_title": "Microsoft Surface Laptop 4",
+    "product_image": "https://www.netstar.com.bd/wp-content/uploads/2022/12/surface-laptop-4-001-500x500-1.jpg",
+    "category": "Laptops",
+    "price": 1299.99,
+    "description": "Microsoft Surface Laptop with AMD Ryzen 5, 13.5-inch PixelSense touchscreen, and 256GB SSD.",
+    "specification": [
+      "AMD Ryzen 5",
+      "13.5-inch PixelSense display",
+      "256GB SSD",
+      "8GB RAM",
+      "Windows 10"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "brand": "Microsoft",
+    "color": "Platinum",
+    "warranty": "1 year"
+  },
+  {
+    "product_id": "18",
+    "product_title": "Beats Solo3 Wireless Headphones",
+    "product_image": "https://i5.walmartimages.com/seo/Beats-Solo3-Wireless-On-Ear-Headphones-with-Apple-W1-Headphone-Chip-Red-MX472LL-A_e4da6186-b8bd-4581-a7f2-e0d93a52283a_1.8cf85fef4d847c65613ba41118d8b525.jpeg",
+    "category": "Accessories",
+    "price": 199.99,
+    "description": "Beats Solo3 with up to 40 hours of battery life and high-quality sound.",
+    "specification": [
+      "40-hour battery life",
+      "Bluetooth",
+      "Foldable design",
+      "Adjustable fit"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "brand": "Beats",
+    "color": "Black",
+    "warranty": "1 year"
+  },
+  {
+    "product_id": "19",
+    "product_title": "Google Pixel 6",
+    "product_image": "https://mobilebuzzbd.com/wp-content/uploads/2023/07/Pixel-6-Pro-600x600.jpg",
+    "category": "Phones",
+    "price": 699.99,
+    "description": "Google Pixel 6 with Google Tensor chip and advanced camera features.",
+    "specification": [
+      "Google Tensor chip",
+      "6.4-inch OLED display",
+      "128GB storage",
+      "50MP camera",
+      "5G support"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "brand": "Google",
+    "color": "Stormy Black",
+    "warranty": "1 year"
+  },
+  {
+    "product_id": "20",
+    "product_title": "Oculus Quest 2 VR Headset",
+    "product_image": "https://gadgetstudiobd.com/wp-content/uploads/2021/12/61kwRNPtMpL._SL1500_.jpg",
+    "category": "Accessories",
+    "price": 299.99,
+    "description": "Oculus Quest 2 VR headset with 128GB storage and immersive 3D experience.",
+    "specification": [
+      "128GB storage",
+      "Standalone VR",
+      "High-resolution display",
+      "Adjustable straps"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "Oculus",
+    "color": "White",
+    "warranty": "1 year"
+  },
+  {
+    "product_id": "21",
+    "product_title": "HP Spectre x360 14",
+    "product_image": "https://m.media-amazon.com/images/I/71c6wfk+xzS._AC_UF1000,1000_QL80_.jpg",
+    "category": "Laptops",
+    "price": 1499.99,
+    "description": "HP Spectre x360 with Intel i7, 16GB RAM, and 512GB SSD, featuring a 2-in-1 design.",
+    "specification": [
+      "Intel Core i7",
+      "13.5-inch OLED display",
+      "16GB RAM",
+      "512GB SSD",
+      "Windows 10"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "HP",
+    "color": "Nightfall Black",
+    "warranty": "1 year"
+  }
+]
