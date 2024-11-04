@@ -5,6 +5,7 @@
     "product_image": "https://smania.store/en/wp-content/uploads/slide-1-528-416x416.jpg",
     "category": "Accessories",
     "price": 59.99,
+    "discount_percent": 41,
     "description": "High-quality wireless Bluetooth headphones with noise cancellation and 20 hours of battery life.",
     "specification": [
       "Bluetooth 5.0",
@@ -24,6 +25,7 @@
     "product_image": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro-14/macbook-pro-14-10-500x500.jpg",
     "category": "Laptops",
     "price": 1999.99,
+    "discount_percent": 0,
     "description": "Apple MacBook Pro 14-inch with M1 Pro chip for outstanding performance and battery life.",
     "specification": [
       "M1 Pro chip",
@@ -44,6 +46,7 @@
     "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Galaxy-S23-Ultra-Green-3380.jpg",
     "category": "Phones",
     "price": 1199.99,
+    "discount_percent": 11,
     "description": "Samsung Galaxy S21 Ultra with 108MP camera, 5G, and 5000mAh battery.",
     "specification": [
       "108MP rear camera",
@@ -64,6 +67,7 @@
     "product_image": "https://www.peacocks.com.bd/storage/2995/iPhone-13-pro-256GB-4.jpg",
     "category": "Phones",
     "price": 999.99,
+    "discount_percent": 0,
     "description": "iPhone 13 Pro with A15 Bionic chip, ProMotion display, and 5G.",
     "specification": [
       "A15 Bionic chip",
@@ -84,6 +88,7 @@
     "product_image": "https://m.media-amazon.com/images/I/51rqOA7uVvS._AC_SX569_.jpg",
     "category": "Smart Watches",
     "price": 229.99,
+    "discount_percent": 0,
     "description": "Fitbit Versa 3 with heart rate monitor, GPS, and built-in voice assistant.",
     "specification": [
       "Heart rate monitor",
@@ -103,6 +108,7 @@
     "product_image": "https://ronstech.com.bd/wp-content/uploads/2021/10/3505-01-500x500-1-1.jpg",
     "category": "Laptops",
     "price": 649.99,
+    "discount_percent": 5,
     "description": "Dell Inspiron 15 with Intel i5 processor, 8GB RAM, and 256GB SSD.",
     "specification": [
       "Intel Core i5",
@@ -123,6 +129,7 @@
     "product_image": "https://shop.deximpo.com.bd/wp-content/uploads/2023/05/Untitled-1.jpg",
     "category": "Accessories",
     "price": 29.99,
+    "discount_percent": 10,
     "description": "High-capacity portable charger with 10000mAh and fast charging.",
     "specification": [
       "10000mAh capacity",
@@ -142,6 +149,7 @@
     "product_image": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7-availability_hero_10052021_big.jpg.slideshow-xlarge_2x.jpg",
     "category": "Smart Watches",
     "price": 399.99,
+    "discount_percent": 0,
     "description": "Apple Watch Series 7 with larger display and advanced health tracking.",
     "specification": [
       "ECG app",
@@ -161,6 +169,7 @@
     "product_image": "https://m.media-amazon.com/images/I/71yxusfh3FL._AC_UF1000,1000_QL80_.jpg",
     "category": "Laptops",
     "price": 999.99,
+    "discount_percent": 0,
     "description": "Apple MacBook Air with M1 chip, lightweight design, and all-day battery life.",
     "specification": [
       "M1 chip",
@@ -181,6 +190,7 @@
     "product_image": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_new-iphone-se-white_04152020_big.jpg.large.jpg",
     "category": "Phones",
     "price": 429.99,
+    "discount_percent": 5,
     "description": "Compact iPhone SE with A13 Bionic chip and single 12MP camera.",
     "specification": [
       "A13 Bionic chip",
@@ -201,6 +211,7 @@
     "product_image": "https://fdn.gsmarena.com/imgroot/reviews/21/samsung-galaxy-watch4/lifestyle/-1200/gsmarena_001.jpg",
     "category": "Smart Watches",
     "price": 249.99,
+    "discount_percent": 0,
     "description": "Samsung Galaxy Watch 4 with advanced body composition analysis and health tracking.",
     "specification": [
       "Body composition analysis",
@@ -220,6 +231,7 @@
     "product_image": "https://www.ryans.com/storage/products/main/logitech-m185-wireless-swift-gray-11543383540.webp",
     "category": "Accessories",
     "price": 19.99,
+    "discount_percent": 0,
     "description": "Ergonomic wireless mouse with long battery life and precise tracking.",
     "specification": [
       "2.4GHz wireless",
@@ -239,6 +251,7 @@
     "product_image": "https://m.media-amazon.com/images/I/510cs9VwjUL._AC_UF1000,1000_QL80_.jpg",
     "category": "Accessories",
     "price": 349.99,
+    "discount_percent": 30,
     "description": "Sony's industry-leading noise-canceling headphones with Alexa voice control.",
     "specification": [
       "Noise-canceling",
@@ -258,6 +271,7 @@
     "product_image": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ios-17-ipad-pro-magic-keyboard-m4-hero.png",
     "category": "Accessories",
     "price": 99.99,
+    "discount_percent": 0,
     "description": "Apple's sleek wireless keyboard with scissor mechanism for smooth typing.",
     "specification": [
       "Bluetooth",
@@ -277,6 +291,7 @@
     "product_image": "https://www.apple.com/newsroom/images/product/ipad/standard/apple_ipad-pro-spring21_hero_04202021_big.jpg.large.jpg",
     "category": "Tablets",
     "price": 799.99,
+    "discount_percent": 25,
     "description": "iPad Pro with M1 chip, 11-inch Liquid Retina display, and 128GB storage.",
     "specification": [
       "M1 chip",
@@ -297,6 +312,7 @@
     "product_image": "https://mcsolution.com.bd/wp-content/uploads/2021/12/huawei-matebook-x-price-in-bangladesh-600x600.webp",
     "category": "Laptops",
     "price": 1199.99,
+    "discount_percent": 0,
     "description": "Premium ultrabook with a FullView display, Intel Core i7, and 16GB RAM.",
     "specification": [
       "Intel Core i7",
@@ -317,6 +333,7 @@
     "product_image": "https://www.netstar.com.bd/wp-content/uploads/2022/12/surface-laptop-4-001-500x500-1.jpg",
     "category": "Laptops",
     "price": 1299.99,
+    "discount_percent": 11,
     "description": "Microsoft Surface Laptop with AMD Ryzen 5, 13.5-inch PixelSense touchscreen, and 256GB SSD.",
     "specification": [
       "AMD Ryzen 5",
@@ -337,6 +354,7 @@
     "product_image": "https://i5.walmartimages.com/seo/Beats-Solo3-Wireless-On-Ear-Headphones-with-Apple-W1-Headphone-Chip-Red-MX472LL-A_e4da6186-b8bd-4581-a7f2-e0d93a52283a_1.8cf85fef4d847c65613ba41118d8b525.jpeg",
     "category": "Accessories",
     "price": 199.99,
+    "discount_percent": 35,
     "description": "Beats Solo3 with up to 40 hours of battery life and high-quality sound.",
     "specification": [
       "40-hour battery life",
@@ -356,6 +374,7 @@
     "product_image": "https://mobilebuzzbd.com/wp-content/uploads/2023/07/Pixel-6-Pro-600x600.jpg",
     "category": "Phones",
     "price": 699.99,
+    "discount_percent": 0,
     "description": "Google Pixel 6 with Google Tensor chip and advanced camera features.",
     "specification": [
       "Google Tensor chip",
@@ -376,6 +395,7 @@
     "product_image": "https://gadgetstudiobd.com/wp-content/uploads/2021/12/61kwRNPtMpL._SL1500_.jpg",
     "category": "Accessories",
     "price": 299.99,
+    "discount_percent": 0,
     "description": "Oculus Quest 2 VR headset with 128GB storage and immersive 3D experience.",
     "specification": [
       "128GB storage",
@@ -395,6 +415,7 @@
     "product_image": "https://m.media-amazon.com/images/I/71c6wfk+xzS._AC_UF1000,1000_QL80_.jpg",
     "category": "Laptops",
     "price": 1499.99,
+    "discount_percent": 50,
     "description": "HP Spectre x360 with Intel i7, 16GB RAM, and 512GB SSD, featuring a 2-in-1 design.",
     "specification": [
       "Intel Core i7",
