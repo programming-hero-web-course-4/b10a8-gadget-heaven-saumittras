@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-white w-full">
+    <div className="bg-white w-full mt-10">
       <div className="">
-        <header className="w-11/12 mx-auto mb-6 lg:mb-14">
+        <header className="w-11/12 mx-auto mb-6 space-y-5 lg:mb-14">
           <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#09080F] text-center">
             Gadget Heaven
           </h3>
@@ -13,7 +13,7 @@ const Footer = () => {
             Leading the way in cutting-edge technology and innovation.
           </p>
         </header>
-        <hr className="w-11/12 mx-auto " />
+        <hr className="w-11/12 mx-auto border-2 border-[#9538E2]" />
         <footer className="footer flex flex-col items-start md:items-start md:justify-evenly md:flex-row text-base-content p-10 w-10/12 mx-auto">
           <nav>
             <h6 className=" text-xl text-[#09080F] font-bold">Services</h6>

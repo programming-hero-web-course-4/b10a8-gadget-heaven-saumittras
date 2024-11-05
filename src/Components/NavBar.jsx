@@ -9,22 +9,22 @@ const NavBar = () => {
   };
   const links = (
     <>
-      <li className="mr-4 bg-transparent text-black">
+      <li className="mr-4 bg-transparent text-black z-10">
         <NavLink style={buttonStyle} className="bg-transparent" to="/">
           Home
         </NavLink>
       </li>
-      <li className="mr-4">
+      <li className="mr-4 z-10">
         <NavLink style={buttonStyle} to="/statistics">
           Statistics
         </NavLink>
       </li>
-      <li className="mr-4">
+      <li className="mr-4 z-10">
         <NavLink style={buttonStyle} to="/dashboard">
           Dashboard
         </NavLink>
       </li>
-      <li className="mr-4">
+      <li className="mr-4 z-10">
         <NavLink style={buttonStyle} to="/offers">
           Offers
         </NavLink>
@@ -33,10 +33,14 @@ const NavBar = () => {
   );
 
   return (
-    <div className="navbar bg-base-100 justify-around">
+    <div className="navbar bg-base-100 w-11/12 mx-auto pt-8 justify-around">
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+          <div
+            tabIndex={0}
+            role="button"
+            className="btn btn-ghost z-10 lg:hidden"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -54,12 +58,12 @@ const NavBar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm  dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             {links}
           </ul>
         </div>
-        <NavLink to="/" className="text-xl font-bold hover:cursor-pointer">
+        <NavLink to="/" className="text-xl z-10 font-bold hover:cursor-pointer">
           Gadget Heaven
         </NavLink>
       </div>
@@ -71,8 +75,12 @@ const NavBar = () => {
 
       <div className="flex-none">
         {/* Cart Section is Added here */}
-        <div className="dropdown dropdown-end">
-          <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
+        <div className="dropdown z-[1] mr-3 dropdown-end">
+          <div
+            tabIndex={0}
+            role="button"
+            className="btn bg-white btn-ghost btn-circle"
+          >
             <div className="indicator">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -106,10 +114,14 @@ const NavBar = () => {
         </div>
 
         {/* WishList added here */}
-        <div className="dropdown dropdown-end">
-          <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
+        <div className="dropdown z-[1] dropdown-end">
+          <div
+            tabIndex={0}
+            role="button"
+            className="btn btn-ghost bg-white z-10 btn-circle"
+          >
             <div className="indicator">
-              <img src={wishicon} alt="" />
+              <img src={wishicon} alt="" className="z-[1]" />
               <span className="badge badge-sm indicator-item">8</span>
             </div>
           </div>
