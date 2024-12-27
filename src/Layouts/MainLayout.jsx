@@ -10,7 +10,7 @@ const MainLayout = () => {
       <NavBar></NavBar>
 
       {/* Dynamic Section Start From here */}
-      <div className="min-h-[calc(100vh-402px)]">
+      <div className="">
         <Outlet></Outlet>
       </div>
 

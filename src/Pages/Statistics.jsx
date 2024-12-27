@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { use } from "react";
+import Chart from "../Components/Chart";
+import { useLoaderData } from "react-router-dom";
 
 const Statistics = () => {
+  const products = useLoaderData();
+  useEffect(() => {
+    document.title = "Gadget Haven - Statistics";
+  }, []);
   return (
     <div>
       <div className="space-y-8">
@@ -16,7 +23,9 @@ const Statistics = () => {
         </div>
 
         <div className="Statistics-container bg-gray-100">
-          <h1>Statistics</h1>
+          <div className="statistics">
+            <Chart products={products}></Chart>
+          </div>
         </div>
       </div>
     </div>

@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import WishLists from "../Components/WishLists";
 import Carts from "../Components/Carts";
 import sort from "../assets/sort.png";
 const Dashboard = () => {
+  const [isActive, setActive] = useState({ cart: true, btn: "cart" });
+  const handleActivebtn = (status) => {
+    if (status == "cart") {
+      setActive({ cart: true, btn: "cart" });
+    } else {
+      setActive({ cart: false, btn: "wishlist" });
+    }
+  };
+
   return (
     <div className="space-y-8">
       <div className="header">
@@ -14,17 +23,33 @@ const Dashboard = () => {
             it all!
           </p>
           <div className="buttons ">
-            <button className="btn btn-primary w-40 mr-6 rounded-full">
+            <button
+              onClick={() => handleActivebtn("cart")}
+              className={`${
+                isActive.cart
+                  ? "btn btn-primary bg-white text-[#9538E2] font-semibold text-lg w-40 mr-6 rounded-full hover:border-white hover:bg-purple-400 hover:text-white"
+                  : "btn btn-primary bg-[#9538E2] border-2 font-semibold text-lg border-white w-40 mr-6 rounded-full"
+              }`}
+            >
               Cart
             </button>
-            <button className="btn btn-primary w-40 rounded-full">
+            <button
+              onClick={() => handleActivebtn("wishlist")}
+              className={`${
+                !isActive.cart
+                  ? "btn btn-primary bg-white text-[#9538E2] font-semibold text-lg w-40 mr-6 rounded-full hover:border-white hover:bg-purple-400 hover:text-white"
+                  : "btn btn-primary bg-[#9538E2] border-2 border-white font-semibold text-lg w-40 mr-6 rounded-full hover:bg-purple-400  hover:text-white"
+              }`}
+            >
               Wishlist
             </button>
           </div>
         </div>
       </div>
       <div className="cart-container bg-gray-100">
-        <div className="cart-container w-11/12 mx-auto">
+        <div
+          className={`${isActive.cart ? "block w-11/12 mx-auto" : "hidden"}`}
+        >
           <div className="tite flex justify-between">
             <h3 className="font-bold text-2xl">Cart</h3>
             <div className="button flex justify-between items-center">
@@ -37,7 +62,7 @@ const Dashboard = () => {
                   <img src={sort} alt="" />
                 </span>
               </button>
-              <button className="btn btn-primary w-40 mr-6 rounded-full">
+              <button className="btn btn-primary bg-[#9538E2] font-semibold text-lg hover:bg-white hover:text-[#9538E2] text-white w-40 mr-6 rounded-full">
                 Purchase
               </button>
             </div>
@@ -46,7 +71,11 @@ const Dashboard = () => {
             <Carts></Carts>
           </div>
         </div>
-        <div className="wishList  w-11/12 mx-auto">
+        <div
+          className={`${
+            isActive.cart ? "hidden" : "block wishList  w-11/12 mx-auto"
+          }`}
+        >
           <h3 className="font-bold text-2xl">Wishlist</h3>
           <div>
             <WishLists></WishLists>
