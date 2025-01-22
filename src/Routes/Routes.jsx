@@ -50,6 +50,7 @@ const router = createBrowserRouter([
       {
         path: "/offers",
         element: <Offers></Offers>,
+        loader: () => fetch("/productsData.json"),
       },
       {
         path: "/products/:product_id",

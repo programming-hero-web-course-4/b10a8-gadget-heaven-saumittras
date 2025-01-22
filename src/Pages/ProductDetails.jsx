@@ -1,5 +1,7 @@
 import React from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import { addCart, addWishlist, getWishlistProducts } from "../utility";
+import { useEffect, useState } from "react";
 import cart from "../assets/cart.png";
 import wish from "../assets/wisht.png";
 
@@ -24,6 +26,25 @@ const ProductDetails = () => {
     rating,
     availability,
   } = product;
+
+  const [isInWishlist, setIsInWishlist] = useState(false);
+
+  useEffect(() => {
+    const wishlist = getWishlistProducts();
+    const exists = wishlist.some(
+      (item) => item.product_id === product.product_id
+    );
+    setIsInWishlist(exists);
+  }, [product.product_id]);
+
+  const handleCart = (product) => {
+    addCart(product);
+  };
+
+  const handleWishlist = (product) => {
+    addWishlist(product);
+    setIsInWishlist(true);
+  };
 
   return (
     <div className=" relative mb-[350px]">
@@ -57,8 +78,11 @@ const ProductDetails = () => {
             <div className="middlePart">
               <h3 className="font-bold text-lg">Specifications:</h3>
               <ul className="list-decimal list-inside mb-3">
-                {specification.map((item) => (
-                  <li className="ml-3 text-lg text-[#09080F99] font-normal">
+                {specification.map((item, idx) => (
+                  <li
+                    key={idx}
+                    className="ml-3 text-lg text-[#09080F99] font-normal"
+                  >
                     {item}
                   </li>
                 ))}
@@ -87,13 +111,19 @@ const ProductDetails = () => {
             </div>
             <div className="button">
               <div className="buttons flex ">
-                <button className="flex rounded-full hover:bg-white hover:border-purple-900 bg-[#9538E2] hover:text-[#9538E2] font-bold text-white  btn mr-6">
+                <button
+                  onClick={() => handleCart(product)}
+                  className="flex rounded-full hover:bg-white hover:border-purple-900 bg-[#9538E2] hover:text-[#9538E2] font-bold text-white  btn mr-6"
+                >
                   Add To Cart
                   <span>
                     <img src={cart} alt="" />
                   </span>
                 </button>
-                <button className="btn btn-circle">
+                <button
+                  onClick={() => handleWishlist(product)}
+                  className="btn btn-circle"
+                >
                   <img className=" h-6" src={wish} alt="" />
                 </button>
               </div>

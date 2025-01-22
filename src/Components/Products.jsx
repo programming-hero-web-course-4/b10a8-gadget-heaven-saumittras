@@ -5,7 +5,6 @@ import { useLoaderData } from "react-router-dom";
 
 const Products = () => {
   const { name } = useParams();
-  console.log(name);
 
   const data = useLoaderData();
   const [products, setProducts] = useState([]);
@@ -20,8 +19,6 @@ const Products = () => {
       setProducts(data);
     }
   }, [name, data]);
-
-  console.log(products);
 
   return (
     <div className="product-box grid grid-cols-1 md:grid-cols-2 gap-5 lg:grid-cols-3">

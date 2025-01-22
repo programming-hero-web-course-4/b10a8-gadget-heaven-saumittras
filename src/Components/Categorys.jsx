@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
 
 const Categorys = ({ categorys }) => {
-  console.log(categorys);
   return (
     <div>
       <div className="border border-[#09080F] border-opacity-10 rounded-2xl bg-[#FFFFFF] py-4 px-2 text-center gap-6 flex flex-col">

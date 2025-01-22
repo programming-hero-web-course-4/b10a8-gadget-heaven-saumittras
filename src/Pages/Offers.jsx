@@ -15,6 +15,7 @@ const Offers = () => {
         setProducts(offeredProduct);
       });
   }, []);
+  console.log(offeredProducts);
   return (
     <div>
       <div className="header">
@@ -26,6 +27,7 @@ const Offers = () => {
             it all!
           </p>
         </div>
+        <div className="offer-products"></div>
       </div>
     </div>
   );
