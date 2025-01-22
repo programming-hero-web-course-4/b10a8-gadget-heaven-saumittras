@@ -11,7 +11,7 @@ const Banner = () => {
     border: "1px solid rgba(255, 255, 255, 0.18)",
   };
   return (
-    <div className="bg-[#9538E2] w-11/12 mx-auto h-screen mb-80 rounded-2xl   ">
+    <div className="bg-[#9538E2] w-11/12 mx-auto h-screen mb-80 rounded-2xl rounded-t-none  ">
       <div className="flex flex-col justify-center items-center gap-y-8 pt-28">
         <h2 className="text-5xl text-center w-10/12 mx-auto font-bold text-white">
           Upgrade Your Tech Accessorize with Gadget Heaven Accessories

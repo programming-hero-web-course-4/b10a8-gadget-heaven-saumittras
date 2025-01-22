@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Banner from "../Components/Banner";
 import { Link, useLoaderData } from "react-router-dom";
-import Products from "../Components/Products";
 import { useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import Categorys from "../Components/Categorys";
@@ -14,7 +13,7 @@ const Home = () => {
 
   return (
     <div className="">
-      <div className="banner">
+      <div className="banner ">
         <Banner></Banner>
       </div>
 

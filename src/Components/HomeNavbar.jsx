@@ -1,6 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { Link, NavLink } from "react-router-dom";
+import wishicon from "../assets/wisht.png";
+import { getAllProducts, getWishlistProducts } from "../utility";
 
 const HomeNavbar = () => {
+  const [cart, setCart] = useState([]);
+  const [wishlist, setWishList] = useState([]);
+
+  useEffect(() => {
+    const cart = getAllProducts();
+    const wishlist = getWishlistProducts();
+    setCart(cart);
+    setWishList(wishlist);
+  }, []);
+
   const buttonStyle = {
     color: "black",
     backgroundColor: "transparent",
@@ -8,30 +21,34 @@ const HomeNavbar = () => {
   const links = (
     <>
       <li className="mr-4 bg-transparent text-black z-10">
-        <NavLink style={buttonStyle} className="bg-transparent" to="/">
-          Home
+        <NavLink
+          style={buttonStyle}
+          className="bg-transparent text-white"
+          to="/"
+        >
+          <span className="text-white">Home</span>
         </NavLink>
       </li>
       <li className="mr-4 z-10">
         <NavLink style={buttonStyle} to="/statistics">
-          Statistics
+          <span className="text-white">Statistics</span>
         </NavLink>
       </li>
       <li className="mr-4 z-10">
         <NavLink style={buttonStyle} to="/dashboard">
-          Dashboard
+          <span className="text-white">Dashboard</span>
         </NavLink>
       </li>
       <li className="mr-4 z-10">
         <NavLink style={buttonStyle} to="/offers">
-          Offers
+          <span className="text-white">Offers</span>
         </NavLink>
       </li>
     </>
   );
 
   return (
-    <div className="navbar bg-base-100 w-11/12 mx-auto pt-8 justify-around">
+    <div className="navbar bg-[#9538E2] w-11/12 mx-auto pt-3 mt-6 rounded-t-3xl justify-around">
       <div className="navbar-start">
         <div className="dropdown">
           <div
@@ -62,11 +79,11 @@ const HomeNavbar = () => {
           </ul>
         </div>
         <NavLink to="/" className="text-xl z-10 font-bold hover:cursor-pointer">
-          Gadget Heaven
+          <span className="text-white">Gadget Heaven</span>
         </NavLink>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal bg-white px-1">{links}</ul>
+        <ul className="menu menu-horizontal text-white px-1">{links}</ul>
       </div>
 
       {/* Here we will add cart and wishlist section */}
@@ -94,7 +111,9 @@ const HomeNavbar = () => {
                   d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
                 />
               </svg>
-              <span className="badge badge-sm indicator-item">8</span>
+              <span className="badge badge-sm indicator-item">
+                {cart?.length}
+              </span>
             </div>
           </div>
           <div
@@ -102,10 +121,16 @@ const HomeNavbar = () => {
             className="card card-compact dropdown-content bg-base-100 z-[1] mt-3 w-52 shadow"
           >
             <div className="card-body">
-              <span className="text-lg font-bold">8 Items</span>
-              <span className="text-info">Subtotal: $999</span>
+              <span className="text-lg font-bold">{cart.length} Items</span>
+
               <div className="card-actions">
-                <button className="btn btn-primary btn-block">View cart</button>
+                <NavLink
+                  className="btn btn-primary btn-block"
+                  style={buttonStyle}
+                  to="/dashboard"
+                >
+                  View Cart
+                </NavLink>
               </div>
             </div>
           </div>
@@ -120,13 +145,27 @@ const HomeNavbar = () => {
           >
             <div className="indicator">
               <img src={wishicon} alt="" className="z-[1]" />
-              <span className="badge badge-sm indicator-item">8</span>
+              <span className="badge badge-sm indicator-item">
+                {wishlist?.length}
+              </span>
             </div>
           </div>
         </div>
       </div>
     </div>
   );
+
+  // other
+  // return (
+  //   <nav>
+  //     <div className="navbar bg-base-100">
+  //       <div className="flex-1">
+  //         <a className="btn btn-ghost text-xl">Gadget Heaven</a>
+  //       </div>
+
+  //     </div>
+  //   </nav>
+  // );
 };
 
 export default HomeNavbar;
