@@ -14,7 +14,7 @@ const Carts = () => {
     setProducts(cart);
     calculateTotalCost(cart);
     document.title = "Gadget Heaven - Cart";
-  }, [products]);
+  }, []);
 
   const calculateTotalCost = (cartProducts) => {
     const total = cartProducts.reduce((sum, product) => sum + product.price, 0);
@@ -63,7 +63,7 @@ const Carts = () => {
         <h3 className="font-bold text-2xl">Cart</h3>
         <div className="button flex justify-between items-center">
           <h3 className="text-[#0B0B0B] font-bold text-2xl mr-4">
-            Total cost:$ {totalCost}
+            Total cost:$ {totalCost?.toFixed(2)}
           </h3>
           <button
             onClick={handleSort}

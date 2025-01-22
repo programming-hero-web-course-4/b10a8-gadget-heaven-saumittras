@@ -6,7 +6,10 @@ const OfferProduct = ({ product }) => {
   return (
     <div className="glass p-5 rounded-xl">
       <div className="card h-full  shadow-xl">
-        <figure className="h-56 mb-6 border border-[#9538E2]">
+        <figure className="h-56 relative mb-6 border border-[#9538E2]">
+          <h2 className=" absolute top-2 right-2 bg-slate-400 px-3 py-2 rounded-full text-2xl font-semibold text-red-500">
+            {product?.discount_percent} % Off
+          </h2>
           <img
             src={product?.product_image}
             alt="Shoes"
@@ -17,10 +20,16 @@ const OfferProduct = ({ product }) => {
           <h2 className=" text-2xl font-semibold text-[#09080F]">
             {product?.product_title}
           </h2>
-          <p className="text-xl text-[#09080F99] font-medium">
-            {" "}
-            $ {product?.price}
-          </p>
+          <div className="price flex justify-between items-center gap-4">
+            <p className="text-xl line-through text-[#09080F99] font-medium">
+              $ {product?.price}
+            </p>
+            <p className="text-2xl text-end text-red-600 font-bold">
+              ${" "}
+              {((product?.price * product?.discount_percent) / 100).toFixed(2)}{" "}
+              Price
+            </p>
+          </div>
           <div className="card-actions">
             <Link
               to={`/products/${product?.product_id}`}

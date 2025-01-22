@@ -7,7 +7,7 @@ const WishListCard = ({ product, setProducts, products }) => {
   useEffect(() => {
     const wishlist = getWishlistProducts();
     setProducts(wishlist);
-  }, [products]);
+  }, []);
   const handleDelete = (product) => {
     deleteWishlist(product);
 
