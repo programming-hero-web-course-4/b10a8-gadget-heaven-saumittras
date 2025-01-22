@@ -6,8 +6,11 @@ Welcome to GadgetHaven, a React-based e-commerce website for exploring, filterin
 <h2>Live Website:</h2>
 <a href="https://saumittra-b10a8.netlify.app">LiveLink</a>
 
-Requirement Document:
-Download PDF
+<h2>Requirement Document:</h2>
+<ol>
+<li>Figma File</li>
+<li>Assignment Instructions PDF File</li>
+</ol>
 
 <h2>Key React Features:</h2>
 <ol>
