@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
+import OfferProduct from "../Components/OfferProduct";
 
 const Offers = () => {
   const [offeredProducts, setProducts] = useState(null);
   useEffect(() => {
     document.title = "Gadget Haven | Exclusive Offer";
-  }, [offeredProducts]);
+  }, []);
+
   useEffect(() => {
     fetch("productsData.json")
       .then((res) => res.json())
@@ -15,7 +17,7 @@ const Offers = () => {
         setProducts(offeredProduct);
       });
   }, []);
-  console.log(offeredProducts);
+
   return (
     <div>
       <div className="header">
@@ -27,7 +29,13 @@ const Offers = () => {
             it all!
           </p>
         </div>
-        <div className="offer-products"></div>
+        <div className="offer-products w-10/12 mx-auto">
+          <div className="product-box grid grid-cols-1 md:grid-cols-2 gap-5 lg:grid-cols-3">
+            {offeredProducts?.map((product, idx) => (
+              <OfferProduct product={product} key={idx}></OfferProduct>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
