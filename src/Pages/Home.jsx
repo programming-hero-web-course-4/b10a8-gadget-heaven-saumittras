@@ -9,7 +9,7 @@ import Categorys from "../Components/Categorys";
 const Home = () => {
   const categorys = useLoaderData();
   useEffect(() => {
-    document.title = "Gadget Haven - Home";
+    document.title = "Gadget Haven | Home";
   }, []);
 
   return (
